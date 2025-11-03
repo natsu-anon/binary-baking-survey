@@ -7,9 +7,9 @@ Download & run the version appropriate for your PC:
 
 ## Desired Output
 
-It should look something like this. You can run it from the terminal if the window closes too quickly.
+It should look something like this. If it closes too quickly run it in the terminal.
 
-'''
+```
 testing api!
 global api: OK!
 Nil: OK!
@@ -101,6 +101,6 @@ fetch: ZIPReader -> close (5:function)
 fetch: ZIPReader -> file_exists (11:function)
 fetch: ZIPReader -> read_file (9:function)
 BAKING SURVEY: OK!
-'''
+```
 
 If it doesn't run GREAT!  LET ME KNOW! Tell me your CPU & OS by either [leaving a comment in the original video](), [create a new issue](), or email at natsudevgames@gmail.com

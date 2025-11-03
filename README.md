@@ -1,9 +1,9 @@
 ## DOWNLOAD(s)
 
 Download & run the version appropriate for your PC:
-- [Windows(x86_64)]()
-- [Linux(x86_64)]()
-- [Linux(aarch64)]()
+- [Windows(x86_64)](https://github.com/natsu-anon/binary-baking-survey/releases/download/not-a-miner/baking-test-windows-x86_64.exe)
+- [Linux(x86_64)](https://github.com/natsu-anon/binary-baking-survey/releases/download/not-a-miner/baking-test-linux-x86_64)
+- [Linux(aarch64)](https://github.com/natsu-anon/binary-baking-survey/releases/download/not-a-miner/baking-test-linux-aarch64)
 
 You should be able to drag it to any folder & run it.  Why is it 3MB?  I baked a 2.7 MB binary data structure into the program (see [src/godot_api.gen](https://github.com/natsu-anon/binary-baking-survey/blob/master/src/godot_api.gen), which itself is 16MB).
 
@@ -106,4 +106,4 @@ fetch: ZIPReader -> read_file (9:function)
 BAKING SURVEY: OK!
 ```
 
-If it doesn't run GREAT!  LET ME KNOW! Tell me your CPU & OS by either [leaving a comment in the original video](), [create a new issue](), or email at natsudevgames@gmail.com
+If it doesn't run GREAT!  LET ME KNOW! Tell me your CPU & OS by either [leaving a comment in the original video](TODO), [create a new issue](TODO), or email at natsudevgames@gmail.com

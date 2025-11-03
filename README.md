@@ -5,7 +5,7 @@ Download & run the version appropriate for your PC:
 - [Linux(x86_64)]()
 - [Linux(aarch64)]()
 
-You should be able to drag it to any folder & run it.  Why is it 3MB?  I baked a 2.7 MB binary data structure into the program (see [src/godot_api.gen](link)).
+You should be able to drag it to any folder & run it.  Why is it 3MB?  I baked a 2.7 MB binary data structure into the program (see [src/godot_api.gen](https://github.com/natsu-anon/binary-baking-survey/blob/master/src/godot_api.gen), which itself is 16MB).
 
 
 ## Desired Output

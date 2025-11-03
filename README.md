@@ -106,4 +106,4 @@ fetch: ZIPReader -> read_file (9:function)
 BAKING SURVEY: OK!
 ```
 
-If it doesn't run GREAT!  LET ME KNOW! Tell me your CPU & OS by either [leaving a comment in the original video](TODO), [create a new issue](TODO), or email at natsudevgames@gmail.com
+If it doesn't run GREAT!  LET ME KNOW! Tell me your CPU & OS by either [leaving a comment in the original video](TODO), [create a new issue](https://github.com/natsu-anon/binary-baking-survey/issues/new?template=i-can-t-run-it-.md), or email at natsudevgames@gmail.com

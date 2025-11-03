@@ -87,7 +87,7 @@ AnimationPlayer: OK!
 AnimationRootNode: OK!
 AnimationTree: OK!
 
-etc. for 20k+ more lines
+... for 20k+ more lines...
 
 fetch: ZIPPacker -> ZipAppend (9:enum)
 fetch: ZIPPacker -> close_file (10:function)

@@ -5,6 +5,9 @@ Download & run the version appropriate for your PC:
 - [Linux(x86_64)]()
 - [Linux(aarch64)]()
 
+You should be able to drag it to any folder & run it.  Why is it 3MB?  I baked a 2.7 MB binary data structure into the program (see [src/godot_api.gen](link)).
+
+
 ## Desired Output
 
 It should look something like this. If it closes too quickly run it in the terminal.

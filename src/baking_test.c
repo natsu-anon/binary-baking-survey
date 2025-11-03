@@ -120,7 +120,7 @@ int main(int argc, char** argv)
 	const uint64_t fresh_hash = api_map_hash(api_map, api_size);
 	PASSERT((api_hash ^ fresh_hash) == 0x00, "hash mismatch! %#x != %#x\n", api_hash, fresh_hash);
 	assert(api_hash == api_map_hash(api_map, api_size));
-	printf("\tglobal api: ");
+	printf("global api: ");
 	api_map_audit(api_map, 0);
 	printf("OK!\n");
 	arena_t scratch = {0};

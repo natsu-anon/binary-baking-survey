@@ -10,7 +10,7 @@ OBJ := $(patsubst src/%.c,obj/%.o,$(SRC))
 
 XCOMP-TARGETS := windows-x86_64 linux-x86_64 linux-aarch64
 
-.PHONY: default all dependencies clean test xcompile
+.PHONY: default dependencies clean test xcompile
 
 default: baking-test
 
@@ -18,7 +18,7 @@ test: baking-test
 	${CURDIR}/$<
 
 baking-test: obj/baking_test.o $(OBJ)
-	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS) -fuse-ld=mold
+	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
 obj/%.o: src/%.c | obj/
 	$(CC) $(CFLAGS) -c $< -o $@
